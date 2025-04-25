@@ -1,0 +1,16 @@
+REST API - JSON 
+
+GRT /user - List all users -- Done 
+
+GET /user/1 - Get the user with ID 1
+GET /user/2 - Get the user with ID 2
+
+Dynamic Path Parameters
+GET /api/users/:id
+ :id --> id is variable | Dynamic hai.
+
+POST /user  - Create new user 
+
+PATCH /user/id - Edit the ser with ID 1
+
+DELETE /delete/1 - Delete the user with ID 1
